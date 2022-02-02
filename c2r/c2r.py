@@ -41,16 +41,15 @@ class Click2RevealXBlock(StudioEditableXBlockMixin, XBlock):
         return data.decode("utf8")
 
     def student_view(self, context=None):
-        html_str = pkg_resources.resource_string(__name__, "static/html/c2r.html")
-        frag = Fragment(unicode(html_str).format(self=self))
+        html_str = self.resource_string("static/html/c2r.html")
+        frag = Fragment(html_str.format(self=self))
 
         # Load the CSS and JavaScript fragments from within the package
-        css_str = pkg_resources.resource_string(__name__, "static/css/c2r.css")
-        frag.add_css(unicode(css_str))
+        css_str = self.resource_string( "static/css/c2r.css")
+        frag.add_css(css_str)
 
-        js_str = pkg_resources.resource_string(__name__,
-                                               "static/js/src/c2r.js")
-        frag.add_javascript(unicode(js_str))
+        js_str = self.resource_string( "static/js/src/c2r.js")
+        frag.add_javascript(js_str)
 
         frag.initialize_js('C2RBlock')
         return frag

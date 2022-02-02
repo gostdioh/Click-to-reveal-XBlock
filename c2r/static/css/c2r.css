@@ -43,3 +43,300 @@
         display:none;   
     }
 }
+
+
+
+
+
+@charset "utf-8";
+/* CSS Document */
+
+.authBtn {
+
+	width: 100%;
+	padding:10px;
+	margin-bottom:20px;
+	display:block;
+}
+
+
+body{
+	color:rgb(61,94,109);
+	background-color:rgb(129,170,188) !important;
+	background-color:rgb(129,170,188) !important;
+	font-family: 'Oswald', "微軟正黑體", sans-serif;
+}
+
+.title{
+	text-align: center;
+}
+
+
+.title>h3{
+	margin-bottom: 0px;
+}
+
+.title>h1{
+	margin-top: 0px;
+}
+
+
+
+.index-btn>a{
+	color: white;
+}
+
+.index-btn>a:hover img{
+	width: 65%;
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+.index-btn>a:hover img{
+	width: 65%;
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+.btn-box{
+	height: 150px;
+}
+
+
+.index-btn img{
+	width: 60%;
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+#indexNavbar{
+	background-color:rgb(66,98,113);
+	border-color:rgb(66,98,113);
+}
+#indexNavbar div{
+	color:rgb(203,227,239);
+	padding-left:20px;
+	padding-top:5px;
+}
+
+.storyPic{
+	-moz-box-shadow:2px 2px 1px rgba(20%,20%,40%,0.5);
+	-webkit-box-shadow:2px 2px 1px rgba(20%,20%,40%,0.5);
+	position:relative;
+	width: 100%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.story-text{
+	text-align: center;
+}
+
+.text-wrap p{
+	display: none;
+}
+
+.text-wrap > .active > p{
+	display: inline !important;
+	font-size: 1.3em;
+	font-family: "微軟正黑體";
+	color: Red;
+
+}
+
+.rotationA{
+	-moz-transform-origin:left top;
+	-moz-transform:rotate(-3deg);
+	-webkit-transform-origin:left top;
+	-webkit-transform:rotate(-3deg);
+	-o-transform-origin:left top;
+	-o-transform:rotate(-3deg);
+	-ms-transform-origin:left top;
+	-ms-transform:rotate(-23deg);
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	margin-top:-3px;
+}
+
+.rotationB{
+	-moz-transform:rotate(1deg);
+	-webkit-transform:rotate(1deg);
+	-o-transform:rotate(1deg);
+	-ms-transform:rotate(1deg);
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+
+.rotationC{
+	-moz-transform-origin:right top;
+	-moz-transform:rotate(3deg);
+	-webkit-transform-origin:right top;
+	-webkit-transform:rotate(3deg);
+	-o-transform-origin:right top;
+	-o-transform:rotate(3deg);
+	-ms-transform-origin:right top;
+	-ms-transform:rotate(3deg);
+	margin-top:-5px;
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+.rotationD{
+	-moz-transform-origin:left top;
+	-moz-transform:rotate(-2deg);
+	-webkit-transform-origin:left top;
+	-webkit-transform:rotate(-2deg);
+	-o-transform-origin:left top;
+	-o-transform:rotate(-2deg);
+	-ms-transform-origin:left top;
+	-ms-transform:rotate(-2deg);
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+
+.rotationA:hover{
+	-moz-box-shadow:3px 3px 15px rgba(10%,10%,10%,0.8);
+	-webkit-box-shadow:3px 3px 15px rgba(10%,10%,10%,0.8);
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+.rotationB:hover{
+	-moz-box-shadow:3px 3px 15px rgba(10%,10%,10%,0.8);
+	-webkit-box-shadow:3px 3px 15px rgba(10%,10%,10%,0.8);
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+.rotationC:hover{
+	-moz-box-shadow:3px 3px 15px rgba(10%,10%,10%,0.8);
+	-webkit-box-shadow:3px 3px 15px rgba(10%,10%,10%,0.8);
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+.rotationD:hover{
+	-moz-box-shadow:3px 3px 15px rgba(10%,10%,10%,0.8);
+	-webkit-box-shadow:3px 3px 15px rgba(10%,10%,10%,0.8);
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+
+.indentA{
+	margin-top:20px;
+}
+.indentB{
+	margin-top:40px;
+}
+.indentC{
+	margin-top:80px;
+}
+.indentD{
+	margin-top:100px;
+}
+#bottomBar{
+	background-color:rgb(66,98,113);
+	position:relative;
+	margin-top:-90px;
+	height:200px;
+	border-color:rgb(66,98,113);
+	z-index:-100;
+}
+.machineBoxs{
+	width:-webkit-calc (100% - 15px);
+}
+#goGame:hover {
+	cursor: pointer;
+}
+.machineBox{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.machineBox > img {
+	width:100%;
+}
+.indexGame {
+	display:block;
+	cursor:pointer;
+
+}
+
+
+.genreWord{
+	background-color:rgb(129,170,188);
+
+	padding-top:2px;
+	display:inline-block;
+
+
+	font-size:24px;
+	text-align: center;
+}
+.linePointL{
+	display:inline-block;
+	background-color:rgb(129,170,188);
+	padding: 0px;
+	text-align: right;
+}
+.linePointR{
+	display:inline-block;
+	background-color:rgb(129,170,188);
+	padding: 0px;
+	text-align: left;
+}
+.line{
+	background-image:url(../img/games/line1.png);
+	background-repeat:repeat-x;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+/* 遊戲機檯 */
+
+.repaired , .repairing{
+	transition:all .2s ease;
+	-webkit-transition:all .2s ease;
+}
+.repaired:hover , .repairing:hover{
+	-webkit-transform:scale(1.1,1.1);
+	        transform:scale(1.1,1.1);
+	-webkit-tranform:scale(1.1,1.1);
+}
+
+
+
+.credit{
+	color: #80ABBC;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#login-status img{
+	height: 20px;
+
+}
+
+
+
+footer#indexFooter{
+	background-color: #41626F;
+	padding-bottom: 50px;
+}
+
+footer#indexFooter p{
+	margin-bottom: 0;
+	color: #80ABBC;
+	text-align: center;
+	font-size: 1em;
+}
+
+footer#indexFooter h5{
+	margin: 0px;
+	color: #80ABBC;
+	text-align: center;
+	font-size: 1.7em;
+}
