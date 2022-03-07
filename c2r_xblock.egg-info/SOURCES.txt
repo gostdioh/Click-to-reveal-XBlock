@@ -1,8 +1,16 @@
+LICENSE
+README.md
+setup.py
 c2r/__init__.py
 c2r/c2r.py
+c2r/static/.DS_Store
 c2r/static/README.txt
 c2r/static/css/c2r.css
 c2r/static/html/c2r.html
+c2r/static/img/poster-01.png
+c2r/static/img/poster-02.png
+c2r/static/img/poster-03.png
+c2r/static/img/poster-04.png
 c2r/static/js/README.md
 c2r/static/js/SpecRunner.html
 c2r/static/js/lib/jasmine-jquery.js
